@@ -42,7 +42,6 @@ Documento das principais funcionalidades do site - Vitor;
 ---
 
 **Responsabilidades Gerais:**
-
 - GitHub  -  David;  
 - Figma - Ícaro;  
 - Pesquisas visuais e recursos de áudio - Levi;  

@@ -1,57 +1,18 @@
-/* =========================================================
-   CONFIGURAÇÕES GERAIS
-========================================================= */
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #ef83bd;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000;
-}
-
-/* Área principal da página */
-header,
-main,
-footer {
-  width: 100%;
-  max-width: 414px;
-  margin: 0 auto;
-}
-
-header,
-main {
-  background-color: #fff;
-}
 
 
-/* =========================================================
-   HEADER / MENU
-========================================================= */
+
+/* === HEADER / MENU === */
 
 header {
-  height: 45px;
+  height: 55px;
   background-color: #b7e5ff;
 }
 
-nav {
-  width: 100%;
-  height: 100%;
-}
 
 nav > ul {
   width: 100%;
   height: 100%;
-  margin: 0;
-  padding: 0 6px;
+  padding: 12px 6px;
   display: flex;
   align-items: center;
   justify-content: space-between;
