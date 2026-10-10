@@ -1,33 +1,668 @@
-/* === css central celular === */
+/* =========================================================
+   CONFIGURAÇÕES GERAIS
+========================================================= */
 
-html{
-    text-align: center;
-    font-size: clamp(1rem, calc(0.5rem + 2vw), 1.625rem);
+* {
+  box-sizing: border-box;
 }
 
-/* === css header === */
-
-header img{
-    padding-top: 1rem;
+html {
+  scroll-behavior: smooth;
 }
 
-header div li a {
-    background-color: #094FA4;
-    color: white;
-    padding: 0.3rem 0.5rem;
-    display: inline-block;
-    margin: 0.3rem;
-    border-radius: 1rem;
-    border: 1px solid #094FA4;
-    
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ef83bd;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
 }
 
-header div li a:hover{
-    background-color: #ffffff;
-    color: #0A6BFF;
-    padding: 0.3rem 0.5rem;
-    display: inline-block;
-    margin: 0.3rem;
-    border-radius: 1rem;
-    border: 1px solid #094FA4;
+/* Área principal da página */
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 414px;
+  margin: 0 auto;
+}
+
+header,
+main {
+  background-color: #fff;
+}
+
+
+/* =========================================================
+   HEADER / MENU
+========================================================= */
+
+header {
+  height: 45px;
+  background-color: #b7e5ff;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+}
+
+nav > ul {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav > ul > li {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+nav > ul > li img {
+  width: 38px;
+  height: auto;
+  display: block;
+}
+
+/* Grupo dos botões */
+nav > ul > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  flex: 1;
+  margin-left: 8px;
+}
+
+nav > ul > div li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 5px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+nav > ul > div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 11px;
+  padding: 0 10px;
+
+  background-color: #0053a0;
+  border-radius: 10px;
+}
+
+/* Botão HOME */
+nav > ul > div a.ativo {
+  background-color: #fff;
+  color: #0053a0;
+}
+
+
+/* =========================================================
+   MAIN
+========================================================= */
+
+main {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   BANNER
+========================================================= */
+
+.banner {
+  width: 100%;
+  min-height: 220px;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  overflow: hidden;
+
+  background-color: #fff;
+}
+
+.banner > div {
+  width: 52%;
+  padding-left: 24px;
+  padding-right: 8px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.banner h1 {
+  margin: 0 0 15px;
+
+  color: #ffa600;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.banner p {
+  margin: 0;
+
+  color: #0088f5;
+  font-size: 12px;
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.banner > img {
+  width: 62%;
+  height: 220px;
+
+  object-fit: cover;
+  object-position: center;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  border-radius: 35px 0 0 0;
+}
+
+
+/* =========================================================
+   SEÇÃO FATORES
+========================================================= */
+
+.fatores {
+  width: calc(100% - 46px);
+  margin: 40px auto 0;
+
+  border-top: 1px solid #aaa;
+}
+
+.fatores > h2 {
+  margin: 26px 0 35px;
+
+  text-align: center;
+
+  font-size: 9px;
+  line-height: 1.4;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Lista dos 5 fatores */
+.lista-fatores {
+  margin: 0 auto;
+  padding: 0;
+
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  column-gap: 25px;
+  row-gap: 8px;
+
+  list-style: none;
+}
+
+.lista-fatores li {
+  width: 82px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.lista-fatores li img {
+  width: 64px;
+  height: 64px;
+
+  object-fit: contain;
+
+  display: block;
+  margin-bottom: 6px;
+}
+
+.lista-fatores li p {
+  margin: 0;
+
+  font-size: 7px;
+  line-height: 1.2;
+}
+
+/*
+  Faz os dois últimos itens ficarem centralizados
+  na segunda linha, como no Figma.
+*/
+.lista-fatores li:nth-child(4),
+.lista-fatores li:nth-child(5) {
+  margin-top: 0;
+}
+
+/* Linha final da seção */
+.fatores > img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  margin: 35px auto 0;
+}
+
+
+/* =========================================================
+   SEÇÃO PESQUISAS
+========================================================= */
+
+.pesquisas {
+  width: calc(100% - 46px);
+  margin: 33px auto 75px;
+}
+
+/* Cada pergunta */
+.pesquisas > div {
+  width: 100%;
+  margin-bottom: 32px;
+
+  background-color: #f5f5f5;
+}
+
+/* Título da pergunta */
+.pesquisas h2 {
+  width: 100%;
+  min-height: 25px;
+
+  margin: 0;
+  padding: 3px 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  background-color: #f3f3f3;
+
+  color: #ffa600;
+
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+/*
+  Cria a pequena seta para baixo do Figma
+*/
+.pesquisas h2::after {
+  content: "⌄";
+
+  color: #999;
+
+  font-size: 14px;
+  font-weight: normal;
+
+  margin-left: 8px;
+
+  position: relative;
+  top: -2px;
+}
+
+/* Conteúdo */
+.pesquisas p {
+  margin: 2px 0 0;
+  padding: 15px 12px;
+
+  min-height: 80px;
+
+  background-color: #d3d3d3;
+
+  color: #333;
+
+  font-size: 9px;
+  line-height: 1.4;
+
+  /*
+    No layout mostrado no Figma, o texto não aparece
+    inicialmente. Mantemos o conteúdo no HTML, mas
+    deixamos visualmente escondido.
+  */
+  visibility: hidden;
+}
+
+/* Link "ler mais" */
+.pesquisas a {
+  display: none;
+}
+
+
+/* =========================================================
+   TAMANHOS DIFERENTES PARA OS BLOCOS
+========================================================= */
+
+/* Primeiro bloco */
+.pesquisas > div:nth-child(1) p {
+  min-height: 50px;
+}
+
+/* Segundo bloco */
+.pesquisas > div:nth-child(2) p {
+  min-height: 120px;
+}
+
+/* Terceiro bloco */
+.pesquisas > div:nth-child(3) p {
+  min-height: 165px;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+footer {
+  min-height: 23px;
+
+  padding: 0 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #aee2ff;
+}
+
+footer > div {
+  display: flex;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+footer li {
+  display: flex;
+  align-items: center;
+}
+
+footer a {
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+footer p {
+  margin: 0;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 10px;
+  color: #222;
+}
+
+
+/* =========================================================
+   RESPONSIVIDADE — CELULAR
+========================================================= */
+
+@media (max-width: 600px) {
+
+  body {
+    background-color: #ef83bd;
+  }
+
+  header,
+  main,
+  footer {
+    width: 100%;
+    max-width: none;
+  }
+
+
+  /* ---------------- HEADER ---------------- */
+
+  header {
+    height: auto;
+    min-height: 55px;
+  }
+
+  nav > ul {
+    min-height: 55px;
+    padding: 7px 8px;
+
+    flex-wrap: wrap;
+  }
+
+  nav > ul > li {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  nav > ul > li img {
+    width: 45px;
+  }
+
+  nav > ul > div {
+    width: 100%;
+    margin-left: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  nav > ul > div a {
+    height: 18px;
+    padding: 0 9px;
+
+    font-size: 7px;
+  }
+
+
+  /* ---------------- BANNER ---------------- */
+
+  .banner {
+    min-height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 0;
+  }
+
+  .banner > div {
+    width: 100%;
+    padding: 30px 25px 25px;
+
+    order: 1;
+  }
+
+  .banner h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .banner p {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  .banner > img {
+    width: 100%;
+    height: auto;
+    min-height: 230px;
+
+    position: static;
+
+    order: 2;
+
+    border-radius: 40px 0 0 0;
+
+    object-fit: cover;
+  }
+
+
+  /* ---------------- FATORES ---------------- */
+
+  .fatores {
+    width: calc(100% - 35px);
+    margin-top: 40px;
+  }
+
+  .fatores > h2 {
+    font-size: 11px;
+    margin: 25px 10px 35px;
+  }
+
+  .lista-fatores {
+    column-gap: 15px;
+    row-gap: 25px;
+  }
+
+  .lista-fatores li {
+    width: calc(33.333% - 15px);
+    min-width: 85px;
+  }
+
+  .lista-fatores li img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .lista-fatores li p {
+    font-size: 8px;
+  }
+
+  .fatores > img {
+    margin-top: 35px;
+  }
+
+
+  /* ---------------- PESQUISAS ---------------- */
+
+  .pesquisas {
+    width: calc(100% - 35px);
+    margin-top: 35px;
+  }
+
+  .pesquisas > div {
+    margin-bottom: 30px;
+  }
+
+  .pesquisas h2 {
+    min-height: 42px;
+
+    padding: 6px 30px;
+
+    font-size: 17px;
+  }
+
+  .pesquisas h2::after {
+    font-size: 16px;
+  }
+
+  .pesquisas p {
+    min-height: 100px;
+  }
+
+  .pesquisas > div:nth-child(1) p {
+    min-height: 70px;
+  }
+
+  .pesquisas > div:nth-child(2) p {
+    min-height: 150px;
+  }
+
+  .pesquisas > div:nth-child(3) p {
+    min-height: 200px;
+  }
+
+
+  /* ---------------- FOOTER ---------------- */
+
+  footer {
+    min-height: 30px;
+    padding: 0 10px;
+  }
+
+  footer img {
+    width: 16px;
+    height: 16px;
+  }
+
+  footer p {
+    font-size: 11px;
+  }
+}
+
+
+/* =========================================================
+   CELULARES MUITO PEQUENOS
+========================================================= */
+
+@media (max-width: 360px) {
+
+  nav > ul > div {
+    gap: 3px;
+  }
+
+  nav > ul > div a {
+    padding: 0 6px;
+    font-size: 6px;
+  }
+
+  .banner > div {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .banner h1 {
+    font-size: 18px;
+  }
+
+  .banner p {
+    font-size: 13px;
+  }
+
+  .lista-fatores {
+    column-gap: 5px;
+  }
+
+  .lista-fatores li {
+    min-width: 78px;
+  }
+
+  .pesquisas h2 {
+    font-size: 15px;
+  }
 }
