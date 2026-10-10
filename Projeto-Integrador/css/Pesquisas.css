@@ -1,0 +1,33 @@
+/* === css central celular === */
+
+html{
+    text-align: center;
+    font-size: clamp(1rem, calc(0.5rem + 2vw), 1.625rem);
+}
+
+/* === css header === */
+
+header img{
+    padding-top: 1rem;
+}
+
+header div li a {
+    background-color: #094FA4;
+    color: white;
+    padding: 0.3rem 0.5rem;
+    display: inline-block;
+    margin: 0.3rem;
+    border-radius: 1rem;
+    border: 1px solid #094FA4;
+    
+}
+
+header div li a:hover{
+    background-color: #ffffff;
+    color: #0A6BFF;
+    padding: 0.3rem 0.5rem;
+    display: inline-block;
+    margin: 0.3rem;
+    border-radius: 1rem;
+    border: 1px solid #094FA4;
+}
