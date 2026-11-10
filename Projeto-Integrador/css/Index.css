@@ -21,6 +21,7 @@ header div li a {
     margin: 0.3rem;
     border-radius: 1rem;
     border: 1px solid #094FA4;
+    transition: transform 0.2s ease;
     
 }
 
@@ -32,6 +33,7 @@ header div li a:hover{
     margin: 0.3rem;
     border-radius: 1rem;
     border: 1px solid #094FA4;
+    transform: scale(1.04);
 }
 
 /* === banner === */ 
@@ -92,10 +94,10 @@ section::after {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  
 }
 
-.div1,
-.div2 {
+.div1, .div2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -105,8 +107,8 @@ section::after {
 
 .fatores li {
   flex: 1 1 180px;
-  max-width: 220px;
-  min-height: 220px;
+  max-width: 200px;
+  min-height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,6 +121,8 @@ section::after {
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(9, 79, 164, 0.12);
   transition: transform 0.2s ease;
+  padding: 20px;
+  margin: 20px;
 }
 
 .fatores li:hover {
@@ -151,7 +155,7 @@ section::after {
 .pesquisa-item {
   background: #fff;
   border-radius: 1rem;
-  box-shadow: 0 8px 20px rgba(9, 79, 164, 0.08);
+  box-shadow: 0 8px 20px rgba(91, 103, 117, 0.08);
   overflow: hidden;
 }
 
@@ -197,7 +201,7 @@ section::after {
 }
 
 .accordion-content p {
-  color: #2d3748;
+  color: #3b4350;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
@@ -235,8 +239,8 @@ footer li {
 }
 
 footer img {
-  width: 28%;
-  min-width: 28px;
+  width: 38%;
+  min-width: 38px;
   height: auto;
   display: block;
 }
