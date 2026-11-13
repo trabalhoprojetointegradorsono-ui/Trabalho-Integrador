@@ -3,63 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dream Diamond | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/1-reset.css" />
     <link rel="stylesheet" href="css/Index.css" />
   </head>
   <body>
     <header>
       <nav>
-        <ul>
-          <li>
-            <a href="index.html"><img src="Icones/logo.svg" alt="logo" /></a>
+        <ul class="nav-list">
+          <li class="logo-item">
+            <a href="01-index.html" class="logo-link">
+              <img src="Icones/logo.svg" alt="Logo Dream Diamond" />
+            </a>
           </li>
-
-          <div>
-            <li>
-              <a href="index.html" class="ativo">HOME</a>
-            </li>
-            <li>
-              <a href="pesquisas.html">PESQUISAS</a>
-            </li>
-            <li>
-              <a href="servicos.html">SERVIÇOS</a>
-            </li>
-            <li>
-              <a href="calculadora.html">CALCULADORA</a>
-            </li>
-            <li>
-              <a href="sobreNos.html">SOBRE NÓS</a>
-            </li>
-            <li>
-              <a href="contatenos.html">CONTATE-NOS</a>
-            </li>
-          </div>
+          <li><a href="01-index.html" class="ativo">HOME</a></li>
+          <li><a href="02-pesquisas.html">PESQUISAS</a></li>
+          <li><a href="03-servicos.html">SERVIÇOS</a></li>
+          <li><a href="04-calculadora.html">CALCULADORA</a></li>
+          <li><a href="05-sobreNos.html">SOBRE NÓS</a></li>
+          <li><a href="06-contatenos.html">CONTATE-NOS</a></li>
         </ul>
       </nav>
     </header>
+
     <main>
       <section class="banner">
-        <div>
-
-          <img src="Imagens/img.home.png" alt="banner">
-        
-        <h1>O que o sono proporciona?</h1>
-        <p>
-          O sono renova suas energias e prepara você para um novo dia. Dormir
-          bem melhora o foco, o humor e a qualidade de vida.
-        </p>
+        <div class="banner-content">
+          <img src="Imagens/img.home.png" alt="Ilustração relacionada ao sono" />
+          <h1>O que o sono proporciona?</h1>
+          <p>
+            O sono renova suas energias e prepara você para um novo dia. Dormir
+            bem melhora o foco, o humor e a qualidade de vida.
+          </p>
         </div>
-
-      
       </section>
-      
+
       <section class="fatores">
-        <h2>
-          Alguns fatores que podem te ajudar a descansar corretamente são:
-        </h2>
-        <ul>
-          <div class="div1">
+        <h2>Alguns fatores que podem te ajudar a descansar corretamente são:</h2>
+
+        <div class="fatores-grid">
+          <ul class="div1">
             <li>
               <img src="Icones/home/DT-1.svg" alt="" />
               <p>Evitar pensar em problemas ou preocupações do dia a dia;</p>
@@ -72,21 +61,21 @@
               <img src="Icones/home/DT-3.svg" alt="" />
               <p>Criar uma rotina regular e fixar um horário para dormir;</p>
             </li>
-          </div>
-          <div class="div2">
+          </ul>
 
+          <ul class="div2">
             <li>
               <img src="Icones/home/DT-4.svg" alt="" />
-              <p>manter uma temperatura agradável no local;</p>
+              <p>Manter uma temperatura agradável no local;</p>
             </li>
             <li>
               <img src="Icones/home/DT-5.png" alt="" />
-              <p>manter uma dieta leve no período noturno;</p>
-            </div>
+              <p>Manter uma dieta leve no período noturno;</p>
             </li>
-        </ul>
- 
+          </ul>
+        </div>
       </section>
+
       <section class="pesquisas">
         <div class="pesquisa-item active">
           <button class="accordion-toggle" type="button" aria-expanded="true">
@@ -101,7 +90,7 @@
               auxilia na recuperação do organismo e ajuda a manter a atenção e o
               bem-estar ao longo do dia.
             </p>
-            <a href="pesquisas.html">ler mais</a>
+            <a href="02-pesquisas.html">ler mais</a>
           </div>
         </div>
 
@@ -120,7 +109,7 @@
               diabetes tipo 2, obesidade e problemas cardiovasculares, além de
               comprometer o sistema imunológico.
             </p>
-            <a href="pesquisas.html">ler mais</a>
+            <a href="02-pesquisas.html">ler mais</a>
           </div>
         </div>
 
@@ -140,23 +129,20 @@
               fundamental para a consolidação da memória, da aprendizagem e do
               processamento das informações adquiridas ao longo do dia.
             </p>
-            <a href="pesquisas.html">ler mais</a>
+            <a href="02-pesquisas.html">ler mais</a>
           </div>
         </div>
       </section>
     </main>
+
     <footer>
       <div>
         <ul>
           <li>
-            <a href="#"
-              ><img src="Icones/Footer/linkedin.svg" alt="linkedin"
-            /></a>
+            <a href="#"><img src="Icones/Footer/linkedin.svg" alt="linkedin" /></a>
           </li>
           <li>
-            <a href="#"
-              ><img src="Icones/Footer/twitter.svg" alt="twitter"
-            /></a>
+            <a href="#"><img src="Icones/Footer/twitter.svg" alt="twitter" /></a>
           </li>
         </ul>
       </div>
@@ -164,14 +150,10 @@
       <div>
         <ul>
           <li>
-            <a href="#"
-              ><img src="Icones/Footer/facebook.svg" alt="facebook"
-            /></a>
+            <a href="#"><img src="Icones/Footer/facebook.svg" alt="facebook" /></a>
           </li>
           <li>
-            <a href="#"
-              ><img src="Icones/Footer/instagram.svg" alt="instagram"
-            /></a>
+            <a href="#"><img src="Icones/Footer/instagram.svg" alt="instagram" /></a>
           </li>
         </ul>
       </div>

@@ -1,33 +1,45 @@
-/* === css central celular === */
-
-html{
-    text-align: center;
-    font-size: clamp(1rem, calc(0.5rem + 2vw), 1.625rem);
+:root {
+  --blue: #094fa4;
+  --blue-strong: #0a6bff;
+  --yellow: #ffae00;
+  --sky: #0094ff;
+  --text: #3b4350;
+  --bg: #f4f9ff;
 }
 
-/* === css header === */
-
-header img{
-    padding-top: 1rem;
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
 }
 
-header div li a {
-    background-color: #094FA4;
-    color: white;
-    padding: 0.3rem 0.5rem;
-    display: inline-block;
-    margin: 0.3rem;
-    border-radius: 1rem;
-    border: 1px solid #094FA4;
-    
+main {
+  padding: 1rem 1rem 3rem;
 }
 
-header div li a:hover{
-    background-color: #ffffff;
-    color: #0A6BFF;
-    padding: 0.3rem 0.5rem;
-    display: inline-block;
-    margin: 0.3rem;
-    border-radius: 1rem;
-    border: 1px solid #094FA4;
+h1,
+h2,
+h3,
+h4 {
+  color: var(--blue);
+  font-weight: 800;
+}
+
+p,
+li,
+span {
+  color: var(--text);
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+.pesquisas h1,
+.melhore h2,
+.estagios h2,
+section h2,
+section h3 {
+  margin-bottom: 0.8rem;
 }
