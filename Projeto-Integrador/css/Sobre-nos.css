@@ -1,34 +1,331 @@
-/* === css central celular === */
-
-html{
-    text-align: center;
-    font-size: clamp(1rem, calc(0.5rem + 2vw), 1.625rem);
+:root {
+  --blue: #094fa4;
+  --blue-strong: #0a6bff;
+  --yellow: #ffae00;
+  --sky: #0094ff;
+  --text: #3b4350;
+  --bg: #f4f9ff;
 }
 
-/* === css header === */
 
-header img{
-    padding-top: 1rem;
+html {
+  font-size: clamp(1rem, calc(0.5rem + 2vw), 1.625rem);
+  text-align: center;
 }
 
-header div li a {
-    background-color: #094FA4;
-    color: white;
-    padding: 0.3rem 0.5rem;
-    display: inline-block;
-    margin: 0.3rem;
-    border-radius: 1rem;
-    border: 1px solid #094FA4;
-    
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
 }
 
-header div li a:hover{
-    background-color: #ffffff;
-    color: #0A6BFF;
-    padding: 0.3rem 0.5rem;
-    display: inline-block;
-    margin: 0.3rem;
-    border-radius: 1rem;
-    border: 1px solid #094FA4;
+img {
+  display: block;
+  max-width: 100%;
 }
 
+/* ====== HEADER====== */
+
+header {
+  background: linear-gradient(180deg, #f3f9ff 0%, #eaf4ff 100%);
+  border-bottom: 3px solid rgba(9, 79, 164, 0.12);
+  box-shadow: 0 4px 12px rgba(9, 79, 164, 0.06);
+  padding: 1rem 0.75rem 1.25rem;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  list-style: none;
+}
+
+.logo-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.2rem;
+}
+
+.logo-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.45rem 0.75rem;
+  border-radius: 1rem;
+  background: #ffffff;
+  border: 1px solid var(--blue);
+  box-shadow: 0 6px 16px rgba(10, 107, 255, 0.12);
+}
+
+header img {
+  width: 165px;
+  margin: 0 auto;
+}
+
+header li {
+  width: 100%;
+}
+
+header li a {
+  display: block;
+  width: 100%;
+  background: linear-gradient(180deg, #0a6bff 0%, #094fa4 100%);
+  color: #fff;
+  padding: 0.7rem 0.85rem;
+  border-radius: 0.9rem;
+  border: 1px solid rgba(9, 79, 164, 0.18);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(9, 79, 164, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+header li a:hover {
+  background: #ffffff;
+  color: var(--blue-strong);
+  border-color: var(--blue);
+  box-shadow: 0 6px 16px rgba(10, 107, 255, 0.12);
+  transform: translateY(-1px);
+}
+
+/* ====== SOBRE NÓS ====== */
+
+.banner img {
+  width: 100%;
+  background-color: #f3d045;
+}
+
+main section h1 {
+  color: #F3D045;
+  padding: 25px 0 15px 0;
+  text-align: center;
+  font-size: 8vw;
+  font-weight: 700;
+}
+
+main section p.texto {
+  text-align: center;
+  font-size: 4.2vw;
+  font-weight: 700;
+  padding: 0 30px 30px 30px;
+}
+
+/* ====== LISTA DOS PARTICIPANTES (CELULAR - SEM BORDA) ====== */
+
+.sobrenos {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.sobrenos li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  margin-bottom: 18px;
+}
+
+.sobrenos li div {
+  width: 66%;
+}
+
+main section ul li div h2 {
+  color: #ffae00;
+  font-size: 0.95rem;
+  text-align: center;
+  padding-bottom: 6px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+main section ul li div p {
+  text-align: left;
+  font-size: 0.72rem;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.sobrenos li div.cards {
+  background-color: #FFAE00;
+  padding: 8px 8px 6px 8px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  width: 31%;
+}
+
+.cards img {
+  width: 100%;
+}
+
+div.cards p {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 0.75rem;
+  margin-top: 6px;
+}
+
+/* ====== FOOTER (CELULAR) ====== */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.8rem;
+    margin-top: 2rem;
+    background: linear-gradient(90deg, #eaf5ff 0%, #dfeeff 100%);
+    border-top: 4px solid var(--blue);
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    list-style: none;
+}
+
+footer li{
+    display: flex;
+    align-items: center;
+}
+
+footer img{
+    width: 38%;
+    min-width: 38px;
+    height: auto;
+    display: block;
+}
+
+footer p{
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: var(--blue);
+    letter-spacing: 0.08em;
+}
+
+/* ===== VERSÃO COMPUTADOR (TELAS MAIORES) ===== */
+
+@media only screen and (min-width: 768px) {
+
+  html {
+    font-size: 3.81vw;
+  }
+
+  /* === HEADER NO COMPUTADOR === */
+
+  header{
+        display: block;
+        padding: 0.5vw 0;
+    }
+
+    /* menu em linha, centralizado (fica com uns 78% da largura da tela) */
+    .nav-list{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 0.8vw;
+    }
+
+    .logo-item{
+        width: auto;
+        margin: 0 0vw 0 0;
+    }
+
+    header img{
+        width: 7vw;
+        margin: 0;
+    }
+
+    header li{
+        width: auto;
+    }
+
+    header li a{
+        width: auto;
+        padding: 0.7vw 1.4vw;
+        border-radius: 1vw;
+        font-size: clamp(10px, 1.2vw, 20px);
+        letter-spacing: 0.04em;
+    }
+
+  /* ===== SOBRE NÓS NO COMPUTADOR (SEM BORDA) ====== */
+
+  main section h1 {
+    font-size: 4vw;
+    padding: 3vw 0 1.5vw 0;
+  }
+
+  main section p.texto {
+    font-size: 1.8vw;
+    padding: 0;
+    margin: 0 20vw 4vw 20vw;
+  }
+
+  /* ====== LISTA DOS PARTICIPANTES NO COMPUTADOR (SEM BORDA) ======== */
+
+  .sobrenos li {
+    gap: 2vw;
+    padding: 1vw 0;
+    margin: 0 18vw 2vw 18vw;
+  }
+
+  .sobrenos li div {
+    width: 72%;
+  }
+
+  main section ul li div h2 {
+    font-size: 1.8vw;
+    padding-bottom: 0.8vw;
+  }
+
+  main section ul li div p {
+    font-size: 1.15vw;
+  }
+
+  .sobrenos li div.cards {
+    padding: 0.8vw 0.8vw 0.6vw 0.8vw;
+    border-radius: 8px;
+    width: 24%;
+  }
+
+  .cards:hover {
+    transform: scale(1.08);
+  }
+
+  div.cards p {
+    font-size: 1.2vw;
+    margin-top: 0.5vw;
+  }
+
+  /* ====== FOOTER ======= */
+
+  footer {
+    gap: 1rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  footer ul {
+    gap: 1rem;
+  }
+
+  footer img {
+    width: 2.5vw;
+    min-width: 32px;
+  }
+
+  footer p {
+    font-size: 1.5vw;
+  }
+}
