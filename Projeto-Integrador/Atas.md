@@ -215,3 +215,111 @@ O levi, ana e o icaro, estão fazendo o figma, o gustavo ele esta ajudando o gru
 - **Secretário:** David Hilário Pereira Benke de Almeida 
 
 Quase todo o grupo se reuniu, menos o David, que não pôde ajudar no Figma e ficou livre para dar mais pop-ups e menus suspensos. É o David que está reenviando os convites de colaboradores novamente, para os integrantes que não haviam aceitado. É uma estudada no GitHub, e aí está livre. 
+
+---
+
+**11° Ata**
+
+**Decimo primeiro Dia - 18/09/2026**
+
+- **Coordenador:** Levi Matheus Streb                        
+- **Secretário:** David Hilário Pereira Benke de Almeida 
+
+	- O Icaro está remodelando figma mais expessificamente o sobre nós.
+	- O Gustavo ele criou um novo repositorio para colocar a parte funcional do figma. É esta mexendo no CSS.
+	- O Levi ele esta melhorando o figma mais expecificamente a paarte Pesquisa.
+	- O David ele esta fazendo as Atas, e esta começando a fazer ela no JavaScript
+	- A Ana ela esta fazendo um pouco de tudo, mas ela esta fazendo mais a pagína serviços.
+ 
+---
+
+**12° Ata**
+
+**Decimo Segundo  Dia - 21/09/2026**
+ 
+- **Coordenador:** Levi Matheus Streb                        
+- **Secretário:** David Hilário Pereira Benke de Almeida 
+- **Faltantes:**
+   - Gustavo guedes - motivo: falta não justificada
+   - Ana Paula - motivo: falta não justificada
+
+O David ele esta fazendo as Atas. E a pagína inícial no figma.
+O Icaro ele vai ajudar o David a terminar o css, e vai fazer o instagram.
+O levi ele esta fazendo começando e o css.
+
+---
+
+**13° Ata**
+
+**Decimo terceiro  Dia - 22/09/2026**
+
+- **Coordenador:** Levi Matheus Streb                        
+- **Secretário:** David Hilário Pereira Benke de Almeida 
+
+
+O David trocou com o Gustavo, para o David fazer a página sobre nós e o Gustavo fazer a página inicial no Figma E o David está fazendo as Atas no GitHub.
+
+O Icaro está resolvendo problemas técnicos na conta do Instagram.
+
+Ana está fazendo a página de serviços no Figma.
+
+O Levi está brincando na aula.Levi é um adolescente de 15 anos que nasceu em Joinville, Santa Catarina. Desde pequeno, sempre foi curioso e dedicado aos estudos. Ele estudou na Escola Agrícola Carlos Heins Funke, em Pirabeiraba, onde aprendeu sobre agricultura, natureza e os cuidados com o campo. Essas experiências ajudaram Levi a crescer, amadurecer e descobrir novos interesses.
+
+Estamos enfrentando problemas de comprometimento no trabalho, ficam de muita brincadeira, e alguns integrantes desfocam muito rapidamente.
+
+--- 
+**14° Ata**
+
+**Decimo Quarto  Dia - 23/09/2026**
+
+- **Coordenador:** Levi Matheus Streb                        
+- **Secretário:** David Hilário Pereira Benke de Almeida
+- **Faltantes:**
+	- Ana - motivo: falta não justificada.
+
+   David continua fazendo a pagína sobre nós, do figma.
+  
+   O Gustavo recebeu uma ideia do professor de fazer varia branchs, para facilitar o trabalho de  fazer comits no github. E isso que ela ira ver como fazer agora. E esta fazendo a pagína inicial.
+  
+   O Icaro agora ele esta começando a fazer posts no instagram.
+  
+   O Levi ele esta livre para se algum integrante precissar de ajuda.
+
+---
+
+**15° Ata**
+
+**Decimo Quinto  Dia - 20/10/2026**
+
+- **Coordenador:** Levi Matheus Streb                        
+- **Secretário:** David Hilário Pereira Benke de Almeida
+
+  O Gustavo, o levi e a Ana paula, estão fazendo Css.
+  o Icaro esta colocando o que ele fez do Css da cauculadora no github, e O grupo usara de base a estrutura do Css da cauculadora.
+  O David esta colocando a pagina que ele fez no visual estudios no github, e se o grupo precisar de alguma coisa ele ajudará o grupo.
+
+  ---
+
+  **16° Ata**
+
+  **Decimo Sexto  Dia - 27/10/2026**
+
+- **Coordenador:** Levi Matheus Streb                        
+- **Secretário:** David Hilário Pereira Benke de Almeida
+
+  O David ele ira estudar sobre os comando do terminal.
+  
+  O resto do grupo esta terminando as paginas de CSS que precisam ser feitas no HTML.
+  
+--- 
+
+ **17° Ata**
+
+  **Decimo Setimo  Dia - 3/11/2026**
+
+- **Coordenador:** Levi Matheus Streb                        
+- **Secretário:** David Hilário Pereira Benke de Almeida
+
+  O grupo inteiro está terminando o CSS e corrigindo os erros que encontarem.
+
+  Recebemos de novo o professor falando que o nosso site precisava de mais conteúdo, e nós começaremos a pensar como faremos isso.
