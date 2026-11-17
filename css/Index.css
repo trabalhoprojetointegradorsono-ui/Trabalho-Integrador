@@ -312,8 +312,8 @@ footer p {
   color: var(--blue);
   letter-spacing: 0.08em;
 }
+/* Media Queries */
 
-/* === @media === */
 
 @media (min-width: 720px) {
   .nav-list {
