@@ -313,6 +313,8 @@ footer p {
   letter-spacing: 0.08em;
 }
 
+/* === @media === */
+
 @media (min-width: 720px) {
   .nav-list {
     gap: 0.8rem;
