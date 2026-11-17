@@ -334,4 +334,4 @@ Estamos enfrentando problemas de comprometimento no trabalho, ficam de muita bri
 - **Coordenador:** Levi Matheus Streb                        
 - **Secretário:** David Hilário Pereira Benke de Almeida
 
-  
+O grupo esta fazendo os retoques finais do projeto.
